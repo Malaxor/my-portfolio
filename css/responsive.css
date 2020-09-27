@@ -1,0 +1,114 @@
+/*========================================================================
+Bootstrap 3 Media Queries
+==========================================================================*/
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width: 992px) and (max-width: 1199.50px) {
+	/* NAVBAR */
+	.navbar {
+		background: rgba(0,0,0, .7);
+		padding: 0;
+	}
+	nav .container-fluid {
+		padding-right: 50px;
+	}
+	/* Navbar Items Centered */
+	/* .navbar-nav {
+
+		width: 100%;
+		text-align: center;
+	} */
+	/* .navbar-nav > li {
+
+		float: none;
+		display: inline-block;
+	} */
+
+	/* ABOUT ME */
+	/* #about-content-box {
+
+		height: 810px;
+	}
+	#about-bg {
+
+		height: 810px;
+	} */
+}
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 768px) and (max-width: 991.90px) {
+	/* NAVBAR */
+	.navbar {
+		background: rgba(0,0,0, .7);
+		padding: 0;
+	}
+	nav .container-fluid {
+		padding-right: 50px;
+	}
+	/* Navbar Items Centered */
+	/* .navbar-nav {
+		width: 100%;
+		text-align: center;
+	}
+	.navbar-nav > li {
+		float: none;
+		display: inline-block;
+	} */
+	/* HOME SECTION */
+	#home-icons > ul.social-icons {
+		font-size: 12px;
+	}
+	#home-heading h3 {
+		font-size: 24px;
+	}
+	/* ABOUT SECTION */
+	.no-gutters {
+		flex-direction: column;
+	}
+	#about-bg {
+		margin-top: 0;
+		height: 500px;
+	}
+	 /* #about-content-box {
+		margin-top: 0;
+		height: auto;
+		padding: 10px 30px;
+	} */
+}
+/* Extra-Small Devices (Landscape Phones & Portrait Tablets) */
+@media (max-width: 767.98px) {
+	/* NAVBAR */
+	.navbar {
+		background: rgba(0,0,0, .7);
+		padding: 0;
+	}
+	nav .container-fluid {
+		padding-right: 50px;
+	}
+	/* HOME SECTION */
+	#home-icons > ul.social-icons {
+		font-size: 12px;
+	}
+	#home-heading h3 {
+		font-size: 24px;
+	}
+	/* ABOUT SECTION */
+	.no-gutters {
+		flex-direction: column;
+	}
+	#about-bg {
+		margin-top: 0;
+		height: 500px;
+	}
+	.skill-item-icon i {
+		font-size: 130px;
+	}
+	.text-right {
+		text-align: center
+	}
+}
+/* Extra-Small Devices (Landscape Phones) */
+@media (max-width: 661px) {
+	#phone-email-location li {
+		display: block;
+	}	
+}
