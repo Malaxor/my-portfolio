@@ -50,10 +50,6 @@ function headingMouseEnterLeave(heading, style) {
 const headings = document.querySelectorAll('.event-listener h3');
 
 headings.forEach(heading => {
-	const headingName = heading.textContent;
 	const headingUnderlineStyle = heading.nextElementSibling.style;
-
-	if(headingName === 'Skills' || headingName === 'About Me' || headingName === 'Projects') {
-		headingMouseEnterLeave(heading, headingUnderlineStyle);
-	}
+	headingMouseEnterLeave(heading, headingUnderlineStyle);
 });
