@@ -39,17 +39,17 @@ $(".navbar-collapse ul li a").on("click touch", function() {
 });
 
 /******************** Content Box **************************/ 
-function headingMouseEnterLeave(heading, style) {
+function headingMouseEnterLeave(heading, headingUnderlineStyle) {
 	heading.addEventListener('mouseenter', () => {
-		Object.assign(style, { width: "80px", transition: "width .3s ease" });
+		Object.assign(headingUnderlineStyle, { width: "80px", transition: "width .3s ease" });
 	});
 	heading.addEventListener('mouseleave', () => {
-		Object.assign(style, { width: "50px" });
+		Object.assign(headingUnderlineStyle, { width: "50px" });
 	});
 }
 const headings = document.querySelectorAll('.event-listener h3');
 
 headings.forEach(heading => {
 	const headingUnderlineStyle = heading.nextElementSibling.style;
-	headingMouseEnterLeave(heading, headingUnderlineStyle);
+	return headingMouseEnterLeave(heading, headingUnderlineStyle);
 });

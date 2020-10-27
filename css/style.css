@@ -127,35 +127,16 @@ RESUME SECTION
 #resume-content {
    width: 70%;
    margin-left: 15%;
-}
-#resume-content a {
-   width: 100%;
-}
-#download-btn {
-   margin: 20px 0 15px;
+   margin-top: 15px;
 }
 #resume-img {
-   margin-bottom: 20px;
+   margin-bottom: 15px;
 }
 #resume-img img {
    border: 2px solid #41464b;
    width: 100%;
 }
-.btn-white {
-   border-color: #FF6978;
-   color: #FF6978;
-   border-width: 2px;
-	border-radius: 0;
-	padding: 12px 26px;
-	font-size: 16px;
-	font-weight: 700;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-}
-.btn-white:hover {
-   color: white;
-   background-color: #FF6978;
-}
+
 /*========================================================================
 SKILLS SECTION
 ==========================================================================*/
@@ -191,10 +172,6 @@ ABOUT SECTION
 }
 .no-gutters {
    display: flex;
-}
-.no-gutters [class*=col-] {
-   padding-left: 0;
-   padding-right: 0;
 }
 #about-desc {
    text-indent: 20px;
