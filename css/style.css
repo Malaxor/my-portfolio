@@ -80,7 +80,6 @@ HOME SECTION
 }
 #home-content-box {
    background-image: url('../img/bg-home2.jpg');
-   width: 100%;
    height: 100%;
    display: flex;
    justify-content: center;
@@ -106,15 +105,15 @@ h3#home-heading-name {
 #stack-icon {
    color: #f48024;
 }
-/* smooth transition */
-div#home-icons .social-icons li {
-   transition: transform .3s ease-in-out;
-   -webkit-transition: transform .3s ease-in-out;
-}
 /* Magnify on hover */
 div#home-icons .social-icons li:hover {
    transform: scale(1.3);
    -webkit-transform: scale(1.3);
+}
+/* smooth transition */
+div#home-icons .social-icons li {
+   transition: transform .3s ease-in-out;
+   -webkit-transition: transform .3s ease-in-out;
 }
 /*========================================================================
 RESUME SECTION
@@ -286,22 +285,22 @@ SOCIAL ICONS
 /*========================================================================
 ANIMATION 
 ==========================================================================*/
-#home-cover,
-#home-heading {
+#home-content-box,
+#home-header {
 	-webkit-animation-duration: .5s;
 	animation-duration: .5s;
 }
-#home-cover {
+#home-content-box {
 	-webkit-animation-delay: .1s;
 	animation-delay: .1s;
 }
-#home-heading {
-	-webkit-animation-delay: .5s;
+#home-header {
+	-webkit-animation-delay: .55s;
 	animation-delay: .5s;
 }
 #home-icons {
-	-webkit-animation-delay: 1s;
-	animation-delay: 1s;
+	-webkit-animation-delay: .8s;
+	animation-delay: .8s;
 }
 /*========================================================================
 CONTENT-BOX (generic)
