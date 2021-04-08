@@ -87,7 +87,7 @@ HOME SECTION
    align-items: center;
    text-align: center;
 }
-header h3 {
+#home-header h3 {
    color: #fff;
    font-size: 40px;
    font-weight: 400;
@@ -202,8 +202,8 @@ div.project .overlay {
 	width: 100%;
 	text-align: center; 
 	padding: 5px;
-	transition: .5s ease;
-	-webkit-transition: .5s ease;
+	transition: .5s;
+	-webkit-transition: .5s;
 }
 div.project:hover .overlay {
    opacity: 1;
