@@ -127,21 +127,6 @@ RESUME SECTION
    padding: 10px;
    width: 100%;
 }
-.btn-white {
-   border-color: #FF6978;
-   color: #FF6978;
-   border-width: 2px;
-	border-radius: 0;
-	padding: 12px 26px;
-	font-size: 16px;
-	font-weight: 700;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-}
-.btn-white:hover {
-   color: white;
-   background-color: #FF6978;
-}
 /*========================================================================
 SKILLS SECTION
 ==========================================================================*/
@@ -196,19 +181,20 @@ div.project .overlay {
 	position: absolute;
 	opacity: 0;
 	bottom: 0;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, .8);
 	color: #FF6978;
 	width: 100%;
 	text-align: center; 
 	padding: 5px;
-	transition: .5s;
-	-webkit-transition: .5s;
+	transition: opacity .5s;
+	-webkit-transition: opacity .5s;
 }
 div.project:hover .overlay {
    opacity: 1;
 }
 div.project h4 {
 	font-size: 22px;
+   letter-spacing: .15rem;
 	font-weight: 700;
 }
 /*========================================================================

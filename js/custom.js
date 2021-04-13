@@ -1,7 +1,7 @@
 new WOW().init();
 // add and remove extra small column width class for project images
 $(window).on('load, resize', function() {
-	const innerWidth = window.innerWidth;
+	const { innerWidth } = window;
 
 	if(innerWidth < 768 && innerWidth > 600) {
 		$('.media-change').addClass('col-xs-6');
@@ -41,7 +41,7 @@ $(".navbar-collapse ul li a").on("click touch", function() {
 /******************** Content Box **************************/ 
 function headingMouseEnterLeave(heading, headingUnderlineStyle) {
 	heading.addEventListener('mouseenter', () => {
-		Object.assign(headingUnderlineStyle, { width: "80px", transition: "width .3s ease" });
+		Object.assign(headingUnderlineStyle, { width: "80px", transition: "width .5s" });
 	});
 	heading.addEventListener('mouseleave', () => {
 		Object.assign(headingUnderlineStyle, { width: "50px" });
