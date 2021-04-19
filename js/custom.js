@@ -47,8 +47,8 @@ function headingMouseEnterLeave(heading, headingUnderlineStyle) {
 		Object.assign(headingUnderlineStyle, { width: "50px" });
 	});
 }
-const headings = document.querySelectorAll('.event-listener h3');
 
+const headings = document.querySelectorAll('.event-listener');
 headings.forEach(heading => {
 	const headingUnderlineStyle = heading.nextElementSibling.style;
 	return headingMouseEnterLeave(heading, headingUnderlineStyle);
