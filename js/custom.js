@@ -40,12 +40,12 @@ $(".navbar-collapse ul li a").on("click touch", function() {
 
 /******************** Content Box **************************/ 
 function headingMouseEnterLeave(heading, headingUnderlineStyle) {
-	heading.addEventListener('mouseenter', () => {
-		Object.assign(headingUnderlineStyle, { width: "80px", transition: "width .5s" });
-	});
-	heading.addEventListener('mouseleave', () => {
-		Object.assign(headingUnderlineStyle, { width: "50px" });
-	});
+	heading.addEventListener('mouseenter', () => 
+		Object.assign(headingUnderlineStyle, { width: "80px", transition: "width .5s" })
+	);
+	heading.addEventListener('mouseleave', () => 
+		Object.assign(headingUnderlineStyle, { width: "50px" })
+	);
 }
 
 const headings = document.querySelectorAll('.event-listener');

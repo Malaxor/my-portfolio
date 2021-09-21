@@ -180,6 +180,7 @@ ABOUT SECTION
 	font-weight: 700;
    text-transform: uppercase;
    letter-spacing: 1px;
+   transition: all .2s ease-in;
 }
 .btn-white:hover {
    color: white;
