@@ -174,7 +174,7 @@ ABOUT SECTION
    border-color: #FF6978;
    color: #FF6978;
    border-width: 2px;
-	border-radius: 0;
+	border-radius: 300px;
 	padding: 12px 26px;
 	font-size: 16px;
 	font-weight: 700;
@@ -192,12 +192,14 @@ PROJECTS SECTION
 div.project {
    position: relative;
    margin-bottom: 20px;
+   border-radius: 11px;
+   overflow: hidden;
 }
 div.project .overlay {
 	position: absolute;
-	opacity: 0;
 	bottom: 0;
 	background: rgba(0, 0, 0, .8);
+	opacity: 0;
 	color: #FF6978;
 	width: 100%;
 	text-align: center; 
