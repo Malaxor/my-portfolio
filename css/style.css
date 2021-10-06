@@ -12,6 +12,9 @@ Black 		  : #000
 /*========================================================================
 GENERAL RULES
 ==========================================================================*/
+* {
+   list-style-type: none;
+}
 html,
 body {
    height: 100%;
@@ -157,7 +160,7 @@ ABOUT SECTION
 }
 #about-content-box {
    height: 100%;
-   padding: 15px 60px;
+   padding: 35px 60px;
    background-color: #F6F6F6;
 }
 .no-gutters {
@@ -221,6 +224,7 @@ CONTACT (FOOTER)
 footer {
 	background-color: #41464b;
 	border-top: 5px solid rgba(0,0,0, .1);
+   padding: 48px 0 24px;
 }
 #contact h3 {
 	color: #fff;
@@ -232,17 +236,16 @@ footer {
 }
 #contact ul {
 	color: #fff;
-	margin-bottom: 15px;
 	list-style: none;
 }
-#phone-email-location li {
-	display: inline-block;
-	margin: 20px 20px 5px 0;
-   font-size: 16px;
-   cursor: default;
+#phone-email-location {
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   gap: 24px;
 }
-footer ul.social-icons {
-   margin-left: 20px;
+#phone-email-location li {
+   font-size: 16px;
 }
 a.contact-link {
    color: white;
@@ -250,7 +253,6 @@ a.contact-link {
 }
 .contact-icons i {
    color: #FF6978;
-   margin-right: 3px; 
 }
 /*========================================================================
 SOCIAL ICONS 
@@ -258,10 +260,9 @@ SOCIAL ICONS
 .social-icons {
    padding: 0;
    margin-top: 25px;
-}
-.social-icons li {
-   display: inline-block;
-   margin-right: 20px;
+   display: flex;
+   justify-content: center;
+   gap: 24px;
 }
 .icon-white {
    color: #fff;
@@ -313,7 +314,7 @@ CONTENT-BOX (generic)
    text-align: center;
 }
 .content-box {
-   padding: 60px 0 0;
+   padding: 64px 0;
 }
 .content-title h3 {
    display: inline-block;
@@ -326,7 +327,7 @@ CONTENT-BOX (generic)
 	width: 50px;
 	height: 3px;
 	background-color: #FF6978;
-	margin: 0 auto 30px;
+	margin: 0 auto 32px;
 }
 #about-me-content-title h3 {
 	display: inline-block;
@@ -337,13 +338,6 @@ CONTENT-BOX (generic)
 }
 #about .content-title-underline {
    margin: 0 0 30px 0;
-}
-/* footer */
-.contact-underline {
-	width: 60px;
-	height: 2px;
-	background-color: #FF6978;
-	margin: 2px auto;
 }
 /*========================================================================
 PARALLAX

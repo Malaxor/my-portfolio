@@ -108,7 +108,7 @@ Bootstrap 3 Media Queries
 }
 /* Extra-Small Devices (Landscape Phones) */
 @media (max-width: 661px) {
-	#phone-email-location li {
-		display: block;
+	#phone-email-location {
+		flex-direction: column;
 	}	
 }
