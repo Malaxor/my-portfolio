@@ -1,7 +1,3 @@
-/*========================================================================
-Bootstrap 3 Media Queries
-==========================================================================*/
-
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 @media (min-width: 992px) and (max-width: 1199.50px) {
 	/* NAVBAR */
@@ -12,27 +8,6 @@ Bootstrap 3 Media Queries
 	nav .container-fluid {
 		padding-right: 50px;
 	}
-	/* Navbar Items Centered */
-	/* .navbar-nav {
-
-		width: 100%;
-		text-align: center;
-	} */
-	/* .navbar-nav > li {
-
-		float: none;
-		display: inline-block;
-	} */
-
-	/* ABOUT ME */
-	/* #about-content-box {
-
-		height: 810px;
-	}
-	#about-bg {
-
-		height: 810px;
-	} */
 }
 /* Small Devices (Portrait Tablets & Small Desktops) */
 @media (min-width: 768px) and (max-width: 991.90px) {
@@ -44,15 +19,6 @@ Bootstrap 3 Media Queries
 	nav .container-fluid {
 		padding-right: 50px;
 	}
-	/* Navbar Items Centered */
-	/* .navbar-nav {
-		width: 100%;
-		text-align: center;
-	}
-	.navbar-nav > li {
-		float: none;
-		display: inline-block;
-	} */
 	/* HOME SECTION */
 	#home-icons > ul.social-icons {
 		font-size: 12px;
@@ -68,11 +34,6 @@ Bootstrap 3 Media Queries
 		margin-top: 0;
 		height: 500px;
 	}
-	 /* #about-content-box {
-		margin-top: 0;
-		height: auto;
-		padding: 10px 30px;
-	} */
 }
 /* Extra-Small Devices (Landscape Phones & Portrait Tablets) */
 @media (max-width: 767.98px) {
