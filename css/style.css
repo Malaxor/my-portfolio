@@ -176,6 +176,7 @@ ABOUT SECTION
 .btn-white {
    border-color: #FF6978;
    color: #FF6978;
+   margin-top: 10px;
    border-width: 2px;
 	border-radius: 300px;
 	padding: 12px 26px;
