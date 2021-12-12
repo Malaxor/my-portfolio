@@ -3,10 +3,9 @@ new WOW().init();
 $(window).on('load, resize', function() {
 	const { innerWidth } = window;
 
-	if(innerWidth < 768 && innerWidth > 600) {
+	if (innerWidth < 768 && innerWidth > 600) {
 		$('.media-change').addClass('col-xs-6');
-	}
-	else {
+	} else {
 		$('.media-change').removeClass('col-xs-6');
 	}
 });
@@ -36,20 +35,4 @@ $("a.smooth-scroll").click(function(event) {
 // close mobile menu on section click
 $(".navbar-collapse ul li a").on("click touch", function() {
 	$(".navbar-toggle").click();
-});
-
-/******************** Content Box **************************/ 
-function headingMouseEnterLeave(heading, headingUnderlineStyle) {
-	heading.addEventListener('mouseenter', () => 
-		Object.assign(headingUnderlineStyle, { width: "80px", transition: "width .5s" })
-	);
-	heading.addEventListener('mouseleave', () => 
-		Object.assign(headingUnderlineStyle, { width: "50px" })
-	);
-}
-
-const headings = document.querySelectorAll('.event-listener');
-headings.forEach(heading => {
-	const headingUnderlineStyle = heading.nextElementSibling.style;
-	return headingMouseEnterLeave(heading, headingUnderlineStyle);
 });

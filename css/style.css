@@ -13,339 +13,343 @@ Black 		  : #000
 GENERAL RULES
 ==========================================================================*/
 * {
-   list-style-type: none;
+  list-style-type: none;
 }
 html,
 body {
-   height: 100%;
+  height: 100%;
 }
 body {
-   font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat", "sans-serif";
 }
 p {
-   color: #64707b;
-   font-size: 18px;
-   font-weight: 400;
-   line-height: 1.8;
+  color: #64707b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
 }
 h3 {
-   color: #41464b;
+  color: #41464b;
 }
 /*========================================================================
 NAVIGATION
 ==========================================================================*/
 .navbar {
-   padding: 20px 0;
-   transition: all .5s ease-in-out;
-   -webkit-transition: all .5s ease-in-out;
+  padding: 20px 0;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
 }
 .custom-nav {
-   background: rgba(0,0,0, 0.8);
-   padding: 7px 0;
+  background: rgba(0,0,0, 0.8);
+  padding: 7px 0;
 }
 nav .container-fluid {
-   padding: 0 100px;
+  padding: 0 100px;
 }
 .navbar-nav {
-   float: right;
+  float: right;
 }
 .navbar-nav > li > a {
-   color: #fff;
-	font-size: 15px;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+  color: #fff;
+font-size: 15px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2px;
 }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
-	background: none;
-	color: #FF6978;
+background: none;
+color: #FF6978;
 }
 .navbar-toggle {
-	background-color: rgba(0,0,0,0.1);
-	border: 1px solid #fff;
-	border-radius: 0;
+background-color: rgba(0,0,0,0.1);
+border: 1px solid #fff;
+border-radius: 0;
 }  
 .navbar-toggle .icon-bar {
-   background-color: #fff;
+  background-color: #fff;
 }
 .navbar-collapse {
-   max-height: none !important;
+  max-height: none !important;
 }
 .custom-nav ul.navbar-nav > li.active > a {
-   color: #FF6978;
+  color: #FF6978;
 }
 /*========================================================================
 HOME SECTION
 ==========================================================================*/
 #home {
-   height: 100%;
+  height: 100%;
 }
 #home-content-box {
-   background-image: url('../img/bg-home2.jpg');
-   height: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
+  background-image: url('../img/bg-home2.jpg');
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 #home-header h3 {
-   color: #fff;
-   font-size: 40px;
-   font-weight: 400;
-   margin: 20px 0;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 20px 0;
 }
 h3#home-heading-name {
-   font-size: 30px;
+  font-size: 30px;
 }
 /* Home Social Icons */
 #github-icon {
-   color: #6cc644;
+  color: #6cc644;
 }
 #linkedin-icon {
-   color: #0077b5;
+  color: #0077b5;
 }
 #stack-icon {
-   color: #f48024;
+  color: #f48024;
 }
 /* Magnify on hover */
 div#home-icons .social-icons li:hover {
-   transform: scale(1.3);
-   -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
 }
 /* smooth transition */
 div#home-icons .social-icons li {
-   transition: transform .3s ease-in-out;
-   -webkit-transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  -webkit-transition: transform .3s ease-in-out;
 }
 /*========================================================================
 RESUME SECTION
 ==========================================================================*/
 #resume-img {
-   width: 70%;
-   margin: 15px auto;
+  width: 70%;
+  margin: 15px auto;
 }
 #resume-img img {
-   border: 2px solid #41464b;
-   padding: 10px;
-   width: 100%;
+  border: 2px solid #41464b;
+  padding: 10px;
+  width: 100%;
 }
 /*========================================================================
 SKILLS SECTION
 ==========================================================================*/
 .skill-item {
-   padding: 20px 0;
-   margin-bottom: 20px;
+  padding: 20px 0;
+  margin-bottom: 20px;
 }
 .skill-item-icon i {
-   font-size: 100px;
+  font-size: 100px;
 }
 .skill-item-icon i#fa-node-icon {
-   color: #6cc24a;
+  color: #6cc24a;
 }
 .devicon-mongodb-plain-wordmark {
-   color: #589636;
+  color: #589636;
 }
 #visualStudio-desc {
-	font-size: 10.3px;
-	font-weight: bold;
-	color: #6E3A91;
+font-size: 10.3px;
+font-weight: bold;
+color: #6E3A91;
 }
 /*========================================================================
 ABOUT SECTION
 ==========================================================================*/
 #about-bg {
-   height: 100%;
-   background-image: url("../img/bg-about2.jpg");
+  height: 100%;
+  background-image: url("../img/bg-about2.jpg");
 }
 #about-content-box {
-   height: 100%;
-   padding: 35px 60px;
-   background-color: #F6F6F6;
+  height: 100%;
+  padding: 35px 60px;
+  background-color: #F6F6F6;
 }
 .no-gutters {
-   display: flex;
+  display: flex;
 }
 .no-gutters [class*=col-] {
-   padding-left: 0;
-   padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 #about-desc {
-   text-indent: 20px;
+  text-indent: 20px;
 }
 .btn-white {
-   border-color: #FF6978;
-   color: #FF6978;
-   margin-top: 10px;
-   border-width: 2px;
-	border-radius: 300px;
-	padding: 12px 26px;
-	font-size: 16px;
-	font-weight: 700;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   transition: all .2s ease-in;
+  border-color: #FF6978;
+  color: #FF6978;
+  margin-top: 10px;
+  border-width: 2px;
+border-radius: 300px;
+padding: 12px 26px;
+font-size: 16px;
+font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all .2s ease-in;
 }
 .btn-white:hover {
-   color: white;
-   background-color: #FF6978;
+  color: white;
+  background-color: #FF6978;
 }
 /*========================================================================
 PROJECTS SECTION
 ==========================================================================*/
 div.project {
-   position: relative;
-   margin-bottom: 20px;
-   border-radius: 11px;
-   overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 11px;
+  overflow: hidden;
 }
 div.project .overlay {
-	position: absolute;
-	bottom: 0;
-	background: rgba(0, 0, 0, .8);
-	opacity: 0;
-	color: #FF6978;
-	width: 100%;
-	text-align: center; 
-	padding: 5px;
-	transition: opacity .5s;
-	-webkit-transition: opacity .5s;
+position: absolute;
+bottom: 0;
+background: rgba(0, 0, 0, .8);
+opacity: 0;
+color: #FF6978;
+width: 100%;
+text-align: center; 
+padding: 5px;
+transition: opacity .5s;
+-webkit-transition: opacity .5s;
 }
 div.project:hover .overlay {
-   opacity: 1;
+  opacity: 1;
 }
 div.project h4 {
-	font-size: 22px;
-   letter-spacing: .15rem;
-	font-weight: 700;
+font-size: 22px;
+  letter-spacing: .15rem;
+font-weight: 700;
 }
 /*========================================================================
 CONTACT (FOOTER)
 ==========================================================================*/
 footer {
-	background-color: #41464b;
-	border-top: 5px solid rgba(0,0,0, .1);
-   padding: 32px 0;
+  background-color: #41464b;
+  border-top: 5px solid rgba(0,0,0, .1);
+  padding: 32px 0;
 }
 #contact h3 {
-	color: #fff;
-	font-size: 22px;
-	font-weight: 400;
-   margin-top: 10px;
-   cursor: default;
-   display: inline-block;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 10px;
+  cursor: default;
+  display: inline-block;
 }
 #contact ul {
-	color: #fff;
-	list-style: none;
+  color: #fff;
+  list-style: none;
 }
 #phone-email-location {
-   padding: 0;
-   display: flex;
-   justify-content: center;
-   gap: 24px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 #phone-email-location li {
-   font-size: 16px;
+  font-size: 16px;
 }
 a.contact-link {
-   color: white;
-   text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 .contact-icons i {
-   color: #FF6978;
+  color: #FF6978;
 }
 /*========================================================================
 SOCIAL ICONS 
 ==========================================================================*/
 .social-icons {
-   padding: 0;
-   margin-top: 25px;
-   display: flex;
-   justify-content: center;
-   gap: 24px;
+  padding: 0;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .icon-white {
-   color: #fff;
+  color: #fff;
 }
 .icon-white:visited {
-   color: #fff;
+  color: #fff;
 }
 .icon-white:hover {
-   color: #FF6978;
+  color: #FF6978;
 }
 .btn-back-to-top {
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	font-size: 22px;
-	padding: 3px 15px;
-	border-radius: 0;
-	border-color: #FF6978;
-	color: #FF6978;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 0;
+  border-color: #FF6978;
+  color: #FF6978;
 }
 .btn-back-to-top:hover {
-   background-color: #FF6978;
-   color: #fff;
+  background-color: #FF6978;
+  color: #fff;
 }
 /*========================================================================
 ANIMATION 
 ==========================================================================*/
 #home-content-box,
 #home-header {
-	-webkit-animation-duration: .5s;
-	animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
 }
 #home-content-box {
-	-webkit-animation-delay: .1s;
-	animation-delay: .1s;
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
 }
 #home-header {
-	-webkit-animation-delay: .55s;
-	animation-delay: .5s;
+-webkit-animation-delay: .55s;
+animation-delay: .5s;
 }
 #home-icons {
-	-webkit-animation-delay: .8s;
-	animation-delay: .8s;
+-webkit-animation-delay: .8s;
+animation-delay: .8s;
 }
 /*========================================================================
 CONTENT-BOX (generic)
 ==========================================================================*/
 .content-title {
-   text-align: center;
+  text-align: center;
 }
 .content-box {
-   padding: 64px 0;
+  padding: 64px 0;
 }
 .content-title h3 {
-   display: inline-block;
-	font-size: 30px;
-	font-weight: 700;
-	margin: 0 auto 20px;
-   cursor: crosshair;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 auto 20px;
+  cursor: crosshair;
 }
 .content-title-underline {
-	width: 50px;
-	height: 3px;
-	background-color: #FF6978;
-	margin: 0 auto 32px;
+  width: 50px;
+  height: 3px;
+  background-color: #FF6978;
+  margin: 0 auto 32px;
+  transition: width .3s;
+}
+.extend-underline:hover + .content-title-underline {
+  width: 80px;
 }
 #about-me-content-title h3 {
-	display: inline-block;
-	font-size: 30px;    
-	font-weight: 700;
-   margin-bottom: 20px;
-   cursor: crosshair;
+  display: inline-block;
+  font-size: 30px;    
+  font-weight: 700;
+  margin-bottom: 20px;
+  cursor: crosshair;
 }
 #about .content-title-underline {
-   margin: 0 0 30px 0;
+  margin: 0 0 30px 0;
 }
 /*========================================================================
 PARALLAX
 ==========================================================================*/
 .bg-parallax {
-	background-size: cover;
-	background-position: center;
-	/* parallax */
-	background-attachment: fixed;
+background-size: cover;
+background-position: center;
+/* parallax */
+background-attachment: fixed;
 }
